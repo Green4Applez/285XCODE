@@ -141,7 +141,7 @@ void opcontrol()
 	{
 		// DRIVETRAIN
 		drive->getModel()->arcade(master.getAnalog(ControllerAnalog::leftY),
-														  master.getAnalog(ControllerAnalog::rightX));
+				          master.getAnalog(ControllerAnalog::rightX));
 
 		// INTAKE AND OUTAKE MECHANISM
 		if (Intake.isPressed())
